@@ -1,1 +1,181 @@
+body {
+	background-color:white;
+	font-size: 18px;
+	margin:0;
+	padding:0;
+	color: black;
+	font-family: 'Montserrat', arial, helvetica, sans-serif;
+}
 
+.header{
+	background-image: url(/Images/Highway_401_Greenbelt.jpg);
+	background-size: cover;
+	background-position-y: 73%;
+	margin:0;
+	padding:0;
+	height:10vw
+}
+.navbar{
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+	top:0;	
+	overflow: hidden;
+	background-color: #08940f;
+	position: sticky;
+	display:flex;
+	justify-content: center;
+}
+
+li {
+	float:left;
+	text-align:center;
+}
+
+li a{
+	display: inline-block;
+	color:white;
+	text-decoration: none;
+	width: 25vw;
+	margin: 0;
+	padding: 15px 0px;
+	letter-spacing: 1px;
+	flex: 1;
+}
+.block1 {
+	padding: 0.5vw;
+	margin-top: 0;
+	margin-left: 20vw;
+	margin-right:20vw;
+	border-bottom:solid;
+	border-color: #000000;
+	border-width: 1pt;
+}
+
+.title1 {
+	font-size: 30px;
+	color:#000000
+}
+
+.title2{
+	font-weight:bold;
+	font-size:20px;
+	color:#009999;
+	margin-top: 5px;
+	margin-bottom:0px;
+}
+
+.title3 {
+	width:60%;
+	margin: auto;
+	font-size: 30px;
+	color:#000000
+}
+
+.title4 {
+	font-size:20pt;
+	color:#000000
+}
+
+.generalText{
+	margin-top: 0;
+	text-align: justify;
+}
+
+.homeSubHead{
+	font-weight:bold;
+	font-size:20px;
+}
+
+/* .projdesc{
+	text-align: justify;
+	font-size:20px;
+} */
+
+.text1{
+	font-size:22px;	
+    text-align: justify;
+}
+.text2{
+    font-size:18px;	
+	text-align: justify;
+}
+
+.text3{
+    font-size:16px;	
+	text-align: justify;
+}
+
+.text4{
+	font-size:18px;
+}
+
+/* .projectimagesubtext {
+	font-size: 14px;
+	font-style: italic;
+	text-align: center;
+} */
+
+#map {
+    height: 1200px;
+    width: 100%;
+}
+/* about us page code */
+.bghead {
+    text-align: center;
+    background-color:#f1f1f1;
+    padding-bottom: 7px;
+}
+.bgimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    width: 40%;
+}
+.grid {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    padding-left: 16px;
+    display: flex;
+}
+.grid2 {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    padding-left: 16px;
+    color:#000;
+    background-color:#f1f1f1;
+    display: flex;
+}
+.gridcontent {
+    text-align: left;
+    flex: 100%;
+}
+.textcolor{
+    color:#757575
+}
+.propic {
+    right: 600px;
+}
+.propic1 {
+    left: 150px;
+    flex: 0%;
+    padding-right: 1%;
+}
+.profilepic {
+    left: 150px;
+    flex: 0%;
+    padding-right: 1%;
+}
+.Disclaimer {
+    color: white;
+    flex:60%;
+    font-size: 15px;
+    background-color: #333;
+    text-align: center;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(3, 3, 3);
+}
