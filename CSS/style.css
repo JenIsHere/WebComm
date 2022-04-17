@@ -8,7 +8,7 @@ body {
 }
 
 .header{
-	background-image: url(/Images/Highway_401_Greenbelt.jpg);
+	background-image: url(Images/Highway_401_Greenbelt.jpg);
 	background-size: cover;
 	background-position-y: 25%;
 	margin:0;
@@ -191,7 +191,18 @@ li a:hover {
     text-align: center;
 }
 .footer {
-    display: flex;
-    flex-direction: row;
-    background-color: rgb(3, 3, 3);
+	background-color: #08940f;
+	position: static;
+	width: 100%;
+	bottom: 0px;
+	left: 0px;
+}
+	
+.footernote {
+	color:rgb(255, 255, 255);
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 1vw;
 }
