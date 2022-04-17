@@ -8,7 +8,7 @@ body {
 }
 
 .header{
-	background-image: url(Images/Highway_401_Greenbelt.jpg);
+	background-image: url(/Images/Highway_401_Greenbelt.jpg);
 	background-size: cover;
 	background-position-y: 25%;
 	margin:0;
@@ -65,7 +65,16 @@ li a:hover {
 	border-color: #000000;
 	border-width: 1pt;
 }
-
+.block2 {
+	padding: 0.5vw;
+	margin-top: 0;
+	margin-left: 10vw;
+	margin-right:10vw;
+	border-bottom:solid;
+	border-color: #858484;
+	border-width: 1pt;
+	border-bottom: none;
+}
 .title1 {
 	font-size: 30px;
 	color:#000000
@@ -88,7 +97,7 @@ li a:hover {
 
 .title4 {
 	font-size:20pt;
-	color:#000000
+	color:#000000;
 }
 
 .generalText{
