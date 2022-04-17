@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Solution</title>
+  
+  <meta charset="utf-8">
+
+  <link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
+  
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
+  <link rel="stylesheet" href="CSS/style.css">
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+     
+</head>
+<body>
+  <nav class="'navbar"></nav>
+  <ul class="navbar">
+      <li><a href="index.html">Home</a></li>
+      <li><a href= "Aboutus.html">About Us</a></li>
+      <li><a href= "Methodology.html">Methodology</a></li>
+      <li><a class="active" href= "Solution.html">Solution</a></li>
+  </ul>
+  </nav>
+
+<div class = "map" id='map'></div>
+    
+<script src="geojson.js" type="text/javascript"></script>
+
+<script>
+  var map = L.map('map').setView([43.974,-79.307], 8);
+
+  L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+  // attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+  maxZoom: 14,
+  id: "cchappellfleming/cl1o4s7m5001a14n1udhz1c3u",
+  tileSize: 256,
+  //zoomOffset: -1,
+  accessToken: "pk.eyJ1IjoiY2NoYXBwZWxsZmxlbWluZyIsImEiOiJjbDFtazRybmQwMTNqM2RvM3A4MDVsZGl6In0.Rg9qLJgQ4z8BfufefbEvEQ"
+  }).addTo(map);
+
+  var PickeringAirport = L.marker([43.922268, -79.139146]).addTo(map)
+    .bindPopup('<b>Pickering Airport</b><br />Info.').openPopup();
+  var Highway = L.marker([43.860832, -79.772953]).addTo(map)
+    .bindPopup('<b>413 Highway Expansion</b><br />Info.').openPopup();
+  var Erin = L.marker([43.77503, -80.070094]).addTo(map)
+    .bindPopup('<b>Erin Waste Treatment Plant</b><br />Info.').openPopup();
+  var Milbrook = L.marker([44.150975, -78.446997]).addTo(map)
+  .bindPopup('<b>Milbrook</b><br />Info.').openPopup();
+  var Orbit = L.marker([44.284659, -79.570779]).addTo(map)
+  .bindPopup('<b>The Orbit Innisfil</b><br />Info.').openPopup();
+  var YorkSewage = L.marker([44.102477, -79.47897]).addTo(map)
+  .bindPopup('<b>Upper York Sewage Solution</b><br />Info.').openPopup();
+  var Bypass = L.marker([44.046421, -79.538518]).addTo(map)
+  .bindPopup('<b>Bradford Bypass</b><br />Info.').openPopup();
+  var Verain = L.marker([43.957171, -79.051567]).addTo(map)
+  .bindPopup('<b>Verain</b><br />Info.').openPopup();
+  var Hamiliton = L.marker([43.1938, -79.763559]).addTo(map)
+  .bindPopup('<b>Hamiliton Urban Expansion</b><br />Info.').openPopup();
+  var Talims = L.marker([44.401268, -80.539397]).addTo(map)
+  .bindPopup('<b>Talims Resort</b><br />Info.').openPopup();
+
+</script>
+</body>
+</html>
