@@ -8,12 +8,12 @@ body {
 }
 
 .header{
-	background-image: url(Images/Highway_401_Greenbelt.jpg);
+	background-image: url(/Images/Highway_401_Greenbelt.jpg);
 	background-size: cover;
-	background-position-y: 73%;
+	background-position-y: 25%;
 	margin:0;
 	padding:0;
-	height:10vw
+	height:10vw;
 }
 .navbar{
 	list-style-type: none;
@@ -42,19 +42,25 @@ li a{
 	letter-spacing: 1px;
 	flex: 1;
 }
+li a:focus{
+	border-color:white;
+	background-color:#14ae1b;
+	color:white;
+	font-weight: bold;
+}
 li a:hover {
-	background-color: #000;
+	background-color: #14ae1b;
 	color:white;
 }
-li a:active {
-	background-color: #016c06;
-	color:white;
+.active{
+	display: block;
+	background-color:#016c06;
 }
 .block1 {
 	padding: 0.5vw;
 	margin-top: 0;
-	margin-left: 20vw;
-	margin-right:20vw;
+	margin-left: 10vw;
+	margin-right:10vw;
 	border-bottom:solid;
 	border-color: #000000;
 	border-width: 1pt;
@@ -144,13 +150,15 @@ li a:active {
 .grid {
     padding-top: 64px;
     padding-bottom: 64px;
-    padding-left: 16px;
+    padding-left: 10vw;
+	padding-right: 10vw;
     display: flex;
 }
 .grid2 {
     padding-top: 64px;
     padding-bottom: 64px;
-    padding-left: 16px;
+    padding-left: 10vw;
+	padding-right: 10vw;
     color:#000;
     background-color:#f1f1f1;
     display: flex;
