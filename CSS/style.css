@@ -8,7 +8,7 @@ body {
 }
 
 .header{
-	background-image: url(/Images/Highway_401_Greenbelt.jpg);
+	background-image: url(/Fleming/SEM2/WebComm_GEOM107/BasemapAlter/Images/Highway_401_Greenbelt.jpg);
 	background-size: cover;
 	background-position-y: 45%;
 	margin:0;
@@ -225,7 +225,6 @@ li a:hover {
 	bottom: 0px;
 	left: 0px;
 }
-	
 .footernote {
 	color:rgb(255, 255, 255);
 	font-family: 'Montserrat', sans-serif;
