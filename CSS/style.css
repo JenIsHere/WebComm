@@ -10,10 +10,10 @@ body {
 .header{
 	background-image: url(https://github.com/JenIsHere/WebComm/blob/main/Images/Greenbelt.jpg?raw=true);
 	background-size: cover;
-	background-position-y: 55%;
+	background-position-y: 60%;
 	margin:0;
 	padding:0;
-	height:10vw;
+	height:15vw;
 }
 .navbar{
 	list-style-type: none;
