@@ -10,7 +10,7 @@ body {
 .header{
 	background-image: url(/Images/Highway_401_Greenbelt.jpg);
 	background-size: cover;
-	background-position-y: 25%;
+	background-position-y: 45%;
 	margin:0;
 	padding:0;
 	height:10vw;
@@ -75,6 +75,13 @@ li a:hover {
 	border-width: 1pt;
 	border-bottom: none;
 }
+.grid3 {
+	padding-top: 64px;
+    padding-bottom: 64px;
+    padding-left: 10vw;
+	padding-right: 10vw;
+	text-align: center;
+}
 .title1 {
 	font-size: 30px;
 	color:#000000
@@ -121,7 +128,7 @@ li a:hover {
 }
 .text2{
     font-size:18px;	
-	text-align: justify;
+	text-align: center;
 }
 
 .text3{
@@ -146,7 +153,7 @@ li a:hover {
 /* about us page code */
 .bghead {
     text-align: center;
-    background-color:#f1f1f1;
+    background-color:white;
     padding-bottom: 7px;
 }
 .bgimage {
@@ -154,7 +161,7 @@ li a:hover {
     margin-left: auto;
     margin-right: auto;
     padding-top: 20px;
-    width: 40%;
+    width: 20%;
 }
 .grid {
     padding-top: 64px;
